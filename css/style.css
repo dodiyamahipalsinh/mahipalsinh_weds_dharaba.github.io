@@ -34,12 +34,24 @@ body{font-family: 'Lato', sans-serif;}
     .counter-ends #count_down_time .timer-inner span{display: block;color: #fff;font-size: 15px;font-weight: 700;}
     .counter-ends #count_down_time .timer-inner:last-child{margin: 0;}
     .slider{float: left;width: 100%;position: relative;}
+    .slider .item{position: relative;}
+    .slider img{width: auto !important;display: inline-block !important;}
     .slider .item .bg1{width: 100%;height: 100%;background-size: cover;background-position: 50% 62.5%;background-image: url(../images/slide1.jpg);}
     .slider .item .bg2{width: 100%;height: 100%;background-size: cover;background-position: 50% 62.5%;background-image: url(../images/slide2.jpg);}
     .slider .item .bg3{width: 100%;height: 100%;background-size: cover;background-position: 50% 62.5%;background-image: url(../images/slide3.jpg);}
     .slider .owl-dots{position: absolute;bottom: 2%;left: 0;right: 0;}
     .slider .owl-dots span{background-color: transparent !important;width: 15px !important}
     .slider .owl-dots.active span{background-color: transparent !important;}
-    .slider .owl-dots span:before{content: '\f08a';font-family: FontAwesome;color: #b5af47;display: inline-block;}
+    .slider .owl-dots span:before{content: '\f08a';font-family: FontAwesome;color: #fff;display: inline-block;}
     .slider .owl-dots .owl-dot.active span:before{color: red;}
+    .slider .title_container {text-align: center;position: absolute;top: 20%;z-index: 999;left: 0px;width: 100%;}
+    .slider .title_front {font-weight: 800;font-size: 18px;color: #FFFFFF;padding: 0 0 30px 0;}
+    .slider .title {font-size: 30px;color: pink;text-align: center;padding-top: 20px;}
+    .title_under{color: #fff;}
+    .slider .title span{color: #fff;}
+    .slider .title_date {color: #FFFFFF;font-weight: 800;font-size: 20px;padding: 0px 0 10px 0;}
+    .slider span.swirl_left {display: inline-block;background: url(../images/swirl_left.png) no-repeat left bottom;padding: 0 0 0 100px;}
+    .slider span.swirl_right {display: inline-block;background: url(../images/swirl_right.png) no-repeat right bottom;padding: 20px 100px 50px 0px;}
+    .slider .title_under {font-weight: 800;font-size: 18px;color: #fff;padding: 20px 0 0 0;}
+    .newbg{position: absolute;width: 100%;height: 100%;display: block;z-index: 666;top: 0px;left: 0px;background: url(../images/trans_black.png) repeat;}
 }
