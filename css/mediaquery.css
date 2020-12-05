@@ -1,0 +1,179 @@
+@media (max-width:1366px)
+{
+
+}
+
+@media (max-width: 1139px) 
+{
+	.inputtxt {width: 321px;}
+	.mainheader .container .logo {width: 100%;float: none;padding: 10px 0 8px 0;text-align: center;}
+	.mainheader .container .chekout {width: 100%;float: none;text-align: center;}
+	.mainheader .container .chekout .registersection {float: none;margin: 0 auto;display: inline-block;}
+	.categorysection {float: none !important;margin: 0 auto;display: inline-block;}
+	.paymentmethod .paymentsection {float: left;width: 67.06%;}
+	.paymentmethod .socialsection {float: left;width: 32.93%;}
+	.exclusive .updatesec1 {float: left;width: 100%;border-right:none;text-align: center;padding-bottom: 15px;}
+	.exclusive .updatesec2 {float: left;width: 100%;text-align: center;}
+	.updatesec1 .subscribe{text-align: center;margin: 0 auto;display: inline-block;}
+	.exclusive .updatesec2 .truthlogosection {padding-left: 0px;text-align: center;margin: 0 auto;display: inline-block;}
+	.boschsection1 {float: left;width: 100%;text-align: center;}
+	.boschsection2 {float: left;width: 100%;}
+	.bosch .boschsection1 .productrotate {display: none;}
+	.bosch .boschbg {float: none;padding: 0 10px 0 10px;text-align: center;margin: 0 auto;display: inline-block;}
+	.boschsection2 .boschprodsec1 {width: 48%;margin: 13px 40px 0 0px;}
+	.boschsection2 .boschprodsec2 {margin: 13px 0px 0 0px;width: 48%;}
+	.boschsection2 .boschprodsec3 {width: 48%;margin: 13px 40px 0 0px;}
+	.boschsection2 .boschprodsec4 {margin: 13px 0px 0 0px;width: 48%;}
+	.boschsection2 .boschprodsec1 .gasimg {padding-top: 25px;text-align: center;}
+	.productsection .productsection1 .productrotate {display: none;}
+	.productsection .productsection1 {float: left;width: 100%;padding-bottom: 15px;}
+	.productsection .productsection2 {float: left;width: 100%;}
+	.woodbig{position: relative;text-align: center;}
+	.prodsec2 {margin:13px 0px 0 0px;width: 48%;}
+	.prodsec1{margin: 13px 40px 0 0px;width: 48%;}
+	.prodsec3{width: 48%;margin: 13px 36px 0 0px;}
+	.prodsec4{width: 48%;margin: 13px 0px 0 0px;}
+	.powertoolsection .slidersection {float: left;width: 100%;position: relative;margin-right: 0;}
+	.powertoolsection .bannersection {float: left;width: 100%;padding-left: 10px;}
+	.powertoolsection {float: left;width: 100%;position: relative;height: auto;}
+}
+
+@media (max-width: 1024px) 
+{
+	.mainheader .container .chekout .categorysection {width: auto;}
+	.section1 {float: left;width: 523px;}
+	.mainheader .container .chekout .categorysection .inputtxt {width: 300px;}
+	.top-links{background:#00a4bd;padding:15px 10px 15px 10px;}
+	.mobile-top-links{display:block;olor:#fff}
+	.top-links a.mobile-top-links{margin:0 0 0 0;color:#fff}
+	.mobile-top-links .top-links-text{float:left}
+	.top-links-icon{float:right;width:18px}
+	.top-links ul.active{display:block;}
+	.top-links ul{display:block;width:100%;margin-top:10px}
+	.top-links ul li{width:100%;margin-bottom:0px;border-top:1px solid #fff}
+	.top-links ul li a{color:#FFF;margin:0;padding:10px 0;display:block}
+	.top-links-icon span{background-color: #ffffff;display: block;height: 2px;margin: 2px 0;transition: all ease 0.2s;-webkit-transition: all ease 0.2s;}
+	.top-links ul{display:none}
+	.mobile-menu-icon.active span.bar1, .open .top-links-icon span.bar1{transform:rotate(-45deg) translate(-3px, 6px);-webkit-transform:rotate(-45deg) translate(-2px, 6px)}
+	.mobile-menu-icon.active span.bar2, .open .top-links-icon span.bar2{opacity:0}
+	.mobile-menu-icon.active span.bar3, .open .top-links-icon span.bar3{transform:rotate(45deg) translate(0px, -3px);-webkit-transform:rotate(45deg) translate(0px, -3px)}
+	.top-links li:last-child {padding: 0 0 0 0px;}
+
+	.nav-folderized .nav h3 { cursor: pointer;}
+	.nav-folderized ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out;padding-left: 23px;}
+	.nav-folderized .nav h3:after { content: "+"; float: right; }
+	.nav-folderized .nav.open h3:after { content: "-"; }
+	.nav-folderized .nav.open ul { height:auto; max-height: 500px; transition: max-height 1s ease-in !important;padding-left: 23px; }
+	h3.exclusivetxt{display:block}
+	.footersection .accountfooter,.footersection .productfooter,.footersection .contactfooter,.footersection .locationfooter{width:100%}
+	.accounttxt{padding:20px;color: #ffffff !important;border-bottom: 1px solid #fff;}
+	.nav{background-color: #00a4bd;}
+	.contactfooter .accounttxt {padding-bottom: 20px !important;}
+	.footersection ul li a{color: #ffffff;}
+
+	.paymentmethod .paymentsection {float: left;width: 100%;text-align: center;}
+	.paymentmethod .paymentsection .paymenttxt {float: none;}
+	.paymentmethod .socialsection {float: left;width: 100%;text-align: center;padding-top: 15px;}
+	.paymentmethod .socialsection .paymenttxt {float: none;}
+	.owl-two .item {text-align: center;}
+	.navigationsection {z-index: 999;}
+	.bannersection .metalsection .machine1pos {position: relative; text-align: center;top: 0;left: 0;}
+	.boschsection .machine2pos {position: relative;top:0;left: 0;text-align: center;}
+	.boschsection .shopnowbtn2 {left: 2.2%;}
+	.bannersection .metalsection .shopnowbtn1 {left: 2.2%;}
+	.owl-one .owl-nav .owl-prev {position: absolute;top: 89%;right: 6%;}
+	.usb .return {float: left;width: 100%;padding-left: 0;text-align: center;padding-bottom: 15px;}
+	.usb .free {float: left;width: 100%;padding-left: 0;text-align: center;padding-bottom: 15px;}
+	.usb .pricenew {float: left;width: 100%;padding-left: 0;text-align: center;padding-bottom: 15px;}
+	.usb .shipping {float: left;width: 100%;padding-left: 0;text-align: center;padding-bottom: 15px;}
+
+	.accountfooter ul li:first-child {padding-top: 10px;}
+	.productfooter ul li:first-child {padding-top: 10px;}
+	.contactfooter ul li:first-child {padding-top: 10px;}
+	.productsection2 .grid figure img {width: auto;text-align: center;margin: 0 auto;padding-top: 10px;}
+	.powertoolsection .bannersection {padding-left: 0;}
+
+	.prodsec1 {margin: 13px 36px 0 0px;width: 48%;}
+	.prodsec2 {margin: 13px 0px 0 0px;width: 48%;}
+
+	.boschsection2 .boschprodsec1 {width: 48%;margin: 13px 36px 0 0px;}
+	.boschsection2 .boschprodsec3 {width: 48%;margin: 13px 36px 0 0px;}
+
+
+
+}
+
+@media (max-width: 900px) 
+{
+	.categorysection .section1 {float: none;width: 100%;}
+	.categorysection .section2 {float: left;width: 100%;margin: 10px 0;}
+	.sliderborder {width: 280px;}
+	/*.prodsec2 {margin: 13px 9px 0 9px;width: 47%;}
+	.prodsec1{margin: 13px 9px 0 9px;width: 47%;}
+	.prodsec3{width: 47%;}
+	.prodsec4{width: 47%;margin: 13px 9px 0 9px;}*/
+	.prodsec1 {margin: 13px 30px 0 0px;width: 48%;}
+	.prodsec3 {width: 48%;margin: 13px 30px 0 0px;}
+}
+
+@media (max-width:767px)
+{
+	.chekout .registersection .signup ul li:nth-child(1) {border-right: 2px solid #d0e0ec;vertical-align: middle;padding: 0 7px 0 0px;}
+	.sliderbg .power .powertxt {font-size: 70px;}
+	.prodsec2 {margin: 13px 9px 0 9px;width: 97%;}
+	.prodsec1{margin: 13px 9px 0 9px;width: 97%;}
+	.prodsec3{width: 97%;margin: 13px 9px 0 9px;}
+	.prodsec4{width: 97%;margin: 13px 9px 0 9px;}
+
+	.boschsection2 .boschprodsec1 { width: 98%;margin: 13px 9px 0 9px;}
+	.boschsection2 .boschprodsec2 { width: 98%;margin: 13px 9px 0 9px;}
+	.boschsection2 .boschprodsec3 { width: 98%;margin: 13px 9px 0 9px;}
+	.boschsection2 .boschprodsec4 { width: 98%;margin: 13px 9px 0 9px;}
+	
+}
+
+@media (max-width:680px)
+{
+	.chekout .registersection .stylishbtn1 {float: none;}
+	.chekout .registersection .signup {float: none;}
+	.chekout .registersection .signup ul li a {font-size: 12px;}
+	.updatesec1 .subscribe .inputtxt {width: 331px;}
+	.multi-gd-img {float: none;width: auto;text-align: center;margin: 0 auto;display: inline-block;}
+	.multi-gd-text a {margin-right:0;}
+	
+	
+	.discountsection .disin .discounttxt {font-size: 11px;}
+	.owl-one .owl-nav .owl-prev {position: absolute;top: 89%;right: 57%;}
+	.owl-one .owl-nav .owl-next {left: 57%;}
+	
+}
+
+@media (max-width:480px)
+{
+	.chekout .registersection .signup ul li a {font-size: 10px;}
+	.mainheader .container .chekout .categorysection .inputtxt {width: 208px;}
+	.exclusive .updatesec1 .signuptxt {font-size: 10px;}
+	.updatesec1 .subscribe .inputtxt {width: 300px;}
+	.updatesec1 .subscribe .stylishbtn5 {font-size: 12px;padding: 16px 7px;}
+	.owl-two .item {text-align: center;}
+	.boschsection2 .boschprodsec1 {width: 97%;margin-right:0;}
+	.boschsection2 .boschprodsec2 {width: 97%;}
+	.boschsection2 .boschprodsec3 {width: 97%;margin-right:0;}
+	.boschsection2 .boschprodsec4 {width: 97%;}
+	.discountsection .disin .discounttxt {font-size: 8px;padding-top: 8px;}
+	.multi-gd-img {float: none;width: auto;text-align: center;margin: 0 auto;display: block;margin-bottom: 10px;}
+}
+
+@media (max-width:380px)
+{
+	.chekout .registersection .signup ul li a {font-size: 9px;}
+	.categorysection ::placeholder {font-size: 10px;}
+	.mainheader .container .chekout .categorysection .inputtxt {width: 191px;}
+	.categorysection .account {float: left;padding: 9px 23px 0 18px;}
+	.chekout .registersection .signup ul li:nth-child(2) {vertical-align: middle;padding: 0 4px 0 0px;}
+	.copyright .copytxt {font-size: 13px;}
+	.paymentsection a {padding-right: 11px;}
+	.updatesec1 .subscribe .inputtxt {width: 239px;}
+	.item .sliderbg .machine {position: relative;text-align: center;top:0;left: 0;}
+	.discountsection .disin .discounttxt {font-size: 12px;padding-top: 8px;}
+}

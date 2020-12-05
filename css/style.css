@@ -1,0 +1,28 @@
+* {box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box;}
+
+a{transition:all ease-in-out 0.5s;-webkit-transition:all ease-in-out 0.5s;-o-transition:all ease-in-out 0.5s;text-decoration: none;}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;outline: none; }
+
+img{max-width: 100%;}
+
+ol, ul {list-style: none;}
+body{font-family: 'Lato', sans-serif;}
+.container{max-width: 1240px;width: 100%;margin: 0 auto;position: relative;}
+
+.clearfix::after,.clearfix::before{display:table;content: "";clear: both;}
+
+.md .desktop{float: left;width: 100%;position: relative;}
+.md .desktop .notvisible{height: 100%;padding: 0;margin: 0;background: #338aff;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;align-items: center;justify-content: center;}
+.md .desktop .notvisible h2{color: #fff;font-size: 35px;}
+.md .mobile{display: none;}
+
+@media only screen and (max-width:1024px) {
+    .md .desktop{display: none;}
+    .md .mobile{display: block;}
+    .mobile .header .logo{float: left;width: 100%;text-align: center;}
+}
