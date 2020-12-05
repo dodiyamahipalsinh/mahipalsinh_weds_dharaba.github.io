@@ -11,6 +11,7 @@
 	    <link rel="stylesheet" href="css/style.css">
 	    <link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	    <link rel="stylesheet" href="css/mediaquery.css">
    </head>
    
@@ -23,11 +24,66 @@
 	   		</div> 
 	   		<div class="mobile">
 	   			<div class="header"> 
-		   			<div class="logo">
-		   				<a href="" title=""><img src="images/logo.png"></a>
+		   			<!-- <div class="logo">
+		   				<a href="https://dodiyamahipalsinh.github.io/mahipalsinh_weds_dharaba.github.io/" title="Mahipalsinh Weds Dharaba"><img src="images/logo.png" style="width: 130px;"></a>
+		   			</div> -->
+		   			<div class="counter">
+		   				<div class="counter-ends">
+				            <div class="counter-end-label">Day's To Go : </div>
+				            <p id="count_down_time"></p>
+			            </div>
 		   			</div>
 		   		</div>	
+		   		<div class="slider">
+		   			<div class="owl-one owl-carousel owl-theme">
+				        <div class="item">
+				            <div class="bg1"></div>
+				        </div>
+				        <div class="item">
+				            <div class="bg2"></div>
+				        </div>
+				        <div class="item">
+				            <div class="bg3"></div>
+				        </div>          
+					</div>
+		   		</div>
 	   		</div>
 	 	</div>	
+	 	<script src="js/jquery.min.js"></script>
+	 	<script src="js/custom.js"></script>
+	 	<script src="js/owl.carousel.js"></script>
+		<script>
+			
+		$(document).ready(function() {
+		      $('.owl-one').owlCarousel({
+		        loop: true,
+		        margin: 0,
+		        responsiveClass: true,
+		        autoplay:true,
+		    	autoplayTimeout:1000,
+		    	autoplayHoverPause:true,
+		        center:true,
+		        responsive: {
+		          0: {
+		            items: 1,
+		            dots:true,
+		            nav: false
+		          },
+		          600: {
+		            items: 1,
+		            nav: false,
+		            dots:true
+		          },
+		          1000: {
+		            items: 1,
+		            nav: false,
+		            dots:true,
+		            margin: 0
+		          }
+		        }
+		      })
+		})
+
+		</script>
    </body>
 </html>
