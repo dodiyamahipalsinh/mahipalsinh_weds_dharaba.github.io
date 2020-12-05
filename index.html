@@ -23,10 +23,23 @@
 	   			</div>
 	   		</div> 
 	   		<div class="mobile">
+	   			<div class="logo">
+		   			<a href="https://dodiyamahipalsinh.github.io/mahipalsinh_weds_dharaba.github.io/" title="Mahipalsinh Weds Dharaba"><img src="images/logo.jpg"></a>
+		   		</div>
+	   			<div class="visitor">
+	   				<div class="visit">
+	   					<h2>VISITORS</h2>
+	   				</div>
+	   				<div id="CounterVisitor">
+					    <span class="counter-item">0</span>
+					    <span class="counter-item">0</span>
+					    <span class="counter-item">1</span>
+					    <span class="counter-item">1</span>
+					    <span class="counter-item">8</span>
+					    <span class="counter-item">4</span>
+					</div>
+	   			</div>
 	   			<div class="header"> 
-		   			<!-- <div class="logo">
-		   				<a href="https://dodiyamahipalsinh.github.io/mahipalsinh_weds_dharaba.github.io/" title="Mahipalsinh Weds Dharaba"><img src="images/logo.png" style="width: 130px;"></a>
-		   			</div> -->
 		   			<div class="counter">
 		   				<div class="counter-ends">
 				            <div class="counter-end-label">Day's To Go : </div>
@@ -35,6 +48,15 @@
 		   			</div>
 		   		</div>	
 		   		<div class="slider">
+		   			<a class="show_menu service" href="#" style="display: block;"><img src="images/mobile_menu_open.png" alt="" title=""></a>
+		   			<a class="hide_menu service" href="#" style="display: none;"><img src="images/mobile_menu_close.png" alt="" title=""></a>
+		   			<nav class="menu" style="display: none;">                                                                   
+				        <ul id="main_menu">
+				            <li><a href="index.html">HOME</a></li>
+				            <li><a href="gallery.html">GALLERY</a></li>
+				            <li><a href="get_in_touch.html">GET IN TOUCH</a></li> 
+				        </ul>
+				    </nav>
 		   			<div class="owl-one owl-carousel owl-theme">
 				        <div class="item">
 				            <div class="bg1"></div>
@@ -77,6 +99,39 @@
 				        </div>          
 					</div>
 		   		</div>
+		   		<div class="about_content">
+		   			<div class="left">
+	                   <span class="names_titles">THE GROOM</span>
+	                   <h2>Mahipalsinh</h2>
+	                        <div class="about_pic_container">
+	                        	<div class="about_pic"><img src="images/groom.jpg"></div>
+	                        </div>
+	               </div>
+		   			<div class="left">
+		                   <span class="names_titles">THE BRIDE</span>
+		                   <h2>Dharaba</h2>
+		                        <div class="about_pic_container">
+		                        	<div class="about_pic"><img src="images/bride.jpg"></div>
+		                        </div>
+		            </div>
+		   		</div>
+		   		<div class="footer">
+		   			<div class="sub-footer">
+		   				<div class="footer_sign"><span class="swirl_left_transparent"><span class="swirl_right_transparent"><img src="images/birds_icon.png" alt="" title=""></span></span></div>
+		   				<div class="footer_names" style="display: block;">Mahipalsinh <span style="color: #fff;padding: 0 5px;">&</span> Dharaba</div>
+		   				<div class="footer_socials">
+					       <ul>
+						       <li><a target="_blank" href="https://twitter.com/MahipalsinhDod8?s=08"><img src="images/twitter.png" alt="Twitter" title="Twitter"></a></li>
+						       <li><a target="_blank" href="https://www.facebook.com/Mahipalsinhdodiya007"><img src="images/facebook.png" alt="Facebook" title="Facebook"></a></li>
+						       <li><a target="_blank" href="mailto:dodiyamahipal93@gmail.com"><img src="images/google.png" alt="Google" title="Google"></a></li>
+						       <li><a target="_blank" href="https://instagram.com/_mahipalsinh_d_?igshid=dsdshyijs03n"><img src="images/instagram.png" alt="Instagram" title="Instagram"></a></li>
+					       </ul>
+					    </div>
+		   			</div>
+		   			<div class="rights">
+			   			<p>© 2020 M & D. All Rights Reserved.</p>
+			   		</div>
+		   		</div>
 	   		</div>
 	 	</div>	
 	 	<script src="js/jquery.min.js"></script>
@@ -111,9 +166,70 @@
 		            margin: 0
 		          }
 		        }
-		      })
+		      });  	
 		})
 
+		jQuery(document).ready(function() {
+			$('.show_menu').click(function(){
+					$('.menu').fadeIn();
+					$('.show_menu').fadeOut();
+					$('.hide_menu').fadeIn();
+			});
+			$('.hide_menu').click(function(){
+					$('.menu').fadeOut();
+					$('.show_menu').fadeIn();
+					$('.hide_menu').fadeOut();
+			});
+
+		});
+
+		var main_menu=function(){
+	var t=15,z=50,s=6,a;
+	function dd(n){this.n=n; this.h=[]; this.c=[]}
+	dd.prototype.init=function(p,c){
+		a=c; var w=document.getElementById(p), s=w.getElementsByTagName('ul'), l=s.length, i=0;
+		for(i;i<l;i++){
+			var h=s[i].parentNode; this.h[i]=h; this.c[i]=s[i];
+			h.onmouseover=new Function(this.n+'.st('+i+',true)');
+			h.onmouseout=new Function(this.n+'.st('+i+')');
+		}
+	}
+	dd.prototype.st=function(x,f){
+		var c=this.c[x], h=this.h[x], p=h.getElementsByTagName('a')[0];
+		clearInterval(c.t); c.style.overflow='hidden';
+		if(f){
+			p.className+=' '+a;
+			if(!c.mh){c.style.display='block'; c.style.height=''; c.mh=c.offsetHeight; c.style.height=0}
+			if(c.mh==c.offsetHeight){c.style.overflow='visible'}
+			else{c.style.zIndex=z; z++; c.t=setInterval(function(){sl(c,1)},t)}
+		}else{p.className=p.className.replace(a,''); c.t=setInterval(function(){sl(c,-1)},t)}
+	}
+	function sl(c,f){
+		var h=c.offsetHeight;
+		if((h<=0&&f!=1)||(h>=c.mh&&f==1)){
+			if(f==1){c.style.filter=''; c.style.opacity=1; c.style.overflow='visible'}
+			clearInterval(c.t); return
+		}
+		var d=(f==1)?Math.ceil((c.mh-h)/s):Math.ceil(h/s), o=h/c.mh;
+		c.style.opacity=o; c.style.filter='alpha(opacity='+(o*100)+')';
+		c.style.height=h+(d*f)+'px'
+	}
+	return{dd:dd}
+}();
+
+		</script>
+		<script>
+			var n = localStorage.getItem('on_load_counter');
+		    if (n === null) {
+		        n = 0;
+		    }
+		    n++;
+		    localStorage.setItem("on_load_counter", n);
+		    document.getElementById('CounterVisitor').innerHTML = n;
+
+		    $('.service').click(function(e) {
+			    e.preventDefault();
+			});
 		</script>
    </body>
 </html>

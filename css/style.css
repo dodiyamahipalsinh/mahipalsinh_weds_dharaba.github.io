@@ -24,8 +24,9 @@ body{font-family: 'Lato', sans-serif;}
 @media only screen and (max-width:1024px) {
     .md .desktop{display: none;}
     .md .mobile{display: block;float: left;width: 100%;}
-    .mobile .header{float: left;width: 100%;position: relative;background: #b5af47;padding: 10px;}
-    .mobile .header .logo{float: left;width: 100%;text-align: center;}
+    .mobile .header{float: left;width: 100%;position: relative;background: #caa976;padding: 10px;}
+    .mobile .logo{float: left;width: 100%;text-align: center;padding:15px;}
+    .mobile .logo img{width: 250px;}
     .mobile .header .counter{float: left;width: 100%;}
     .counter-ends{float: left;width: 100%;text-align: center;}
     .counter-ends .counter-end-label{display: inline-block;vertical-align: middle;padding-right: 15px;color: #fff;font-size: 20px;font-weight: 700;text-align: center;padding: 15px 0;}
@@ -54,4 +55,59 @@ body{font-family: 'Lato', sans-serif;}
     .slider span.swirl_right {display: inline-block;background: url(../images/swirl_right.png) no-repeat right bottom;padding: 20px 100px 50px 0px;}
     .slider .title_under {font-weight: 800;font-size: 18px;color: #fff;padding: 20px 0 0 0;}
     .newbg{position: absolute;width: 100%;height: 100%;display: block;z-index: 666;top: 0px;left: 0px;background: url(../images/trans_black.png) repeat;}
+    .show_menu {display: block;position: absolute;top: 20px;left: 45%;z-index: 99999;}
+    .hide_menu {display: none;position: absolute;top: 20px;left: 45%;z-index: 99999;}
+    nav.menu {padding: 20px 4%;margin: 0 4%;width: 92%;height: auto;text-align: center;display: none;position: absolute;top: 85px;left: 0px;z-index: 9999999999;clear: both;float: left;}
+    ul#main_menu {list-style: none;margin: 0;padding: 0px;}
+    ul#main_menu li {border-bottom: 1px solid #fff;margin: 0 10px;width: 95%;position: relative;padding: 5px 0;display: inline-block;line-height: 20px;background: url(images/menu_border_bottom.png) no-repeat center bottom;}
+    ul#main_menu li a.selected{color: #fff;font-weight: 700;}
+    ul#main_menu li a {font-size: 14px;line-height: 35px;display: inline-block;color: #FFFFFF;padding: 0 0 0 0px;font-weight: 700;}
+    nav.menu {background-color: #caa976;}
+    .about_content{padding: 20px 0;position: relative;float: left;width: 100%;}
+    .about_content .left{width: 94%;float: left;margin: 0 3% 30px 3%;}
+    span.names_titles {display: block;width: 100%;text-align: center;font-size: 24px;font-weight: 300;letter-spacing: -1px;padding: 0 0 10px 0;color: #b5af47;}
+    .about_content h2 {text-align: center;font-weight: 800;font-size: 26px;padding: 0 0 20px 0;color: #5d594d}
+    .about_pic_container{text-align: center;}
+
+    .visitor{float: right;width: 100%;position: relative;background: #df76b8;padding: 15px;text-align: center;}
+    .visitor .visit{display: inline-block;vertical-align: middle;padding-right: 10px;}
+    .visitor .visit h2{font-weight: 700;color: #fff;font-size: 15px;}
+    .visitor #CounterVisitor{font-weight: 700;color: #fff;font-size: 15px;border: 3px solid #fff;padding: 10px;vertical-align: middle;display: inline-block;text-align: right;}
+    .visitor #CounterVisitor span{font-weight: 700;color: #fff;font-size: 15px;}
+
+    .gallery .show_menu {display: block;position: absolute;top: 25%;right: 2%;z-index: 99999;left: initial;}
+    .gallery .hide_menu {display: none;position: absolute;top: 25%;right: 2%;z-index: 99999;left: initial;}
+    .gallery nav.menu{top: 74px;}
+    .masonry{float: left;width: 100%;position: relative;padding: 20px 0;}
+    .masonry .gallery-new{display: flex;justify-content: center;align-items: center;flex-direction: column;}
+    .masonry .gallery-new .grid-container{columns: 5 200px;column-gap: 1.5rem;width: 90%;margin: 0 auto;}
+    .masonry .gallery-new .grid-container div{width: 150px;margin: 0 0 1.5rem 0;display: inline-block;width: 100%;border: solid 2px black;padding: 5px;box-shadow: 5px 5px 5px rgba(0,0,0,0.5);border-radius: 5px;transition: all .25s ease-in-out;}
+
+    .get-touch{float: left;width: 100%;position: relative;padding: 15px;background: #338aff;}
+    .get-touch .location{float: left;width: 100%;position: relative;}
+    .get-touch .location h2{font-size: 25px;font-weight: 700;color: #fff;padding-bottom: 15px;}
+    .get-touch .location .weds{float: left;width: 100%;padding-bottom: 10px;padding-left: 20px;}
+    .get-touch .location .weds h3{font-size: 20px;font-weight: 700;color: #fff;padding-bottom: 10px;}
+    .get-touch .location .weds .address{float: left;width: 100%;padding-left: 20px;}
+    .get-touch .location .weds .address p{font-size: 15px;text-align: left;font-weight: 400;padding-bottom: 10px;color: #fff;}
+    .get-touch .location .weds .address a{color: #fff;font-weight: 700;text-decoration: underline;}
+    #map {height: 400px;width: 100%;}
+    #map1 {height: 400px;width: 100%;}
+
+    .footer{clear: both;background-color: #2d2e21;width: 100%;padding: 40px 0 20px 0;}
+    .footer .sub-footer{width: 100%;margin: auto;padding: 20px 0;}
+    .footer .sub-footer .footer_sign {width: 100%;text-align: center;}
+    span.swirl_left_transparent {display: inline-block;background: url(../images/swirl_left_transparent.png) no-repeat left bottom;padding: 0 0 0 50px;}
+    span.swirl_right_transparent {display: inline-block;background: url(../images/swirl_right_transparent.png) no-repeat right bottom;padding: 0 50px 50px 0px;}
+    .footer_names{width: 100%;text-align: center;font-size: 20px;font-weight: 800;padding: 20px 0;color: #999700;}
+    .footer_socials {width: 100%;text-align: center;padding: 20px 0 0;}
+    .footer_socials ul, .footer_socials li {margin: 0px;padding: 0px;list-style: none;display: inline-block;}
+    .footer_socials ul li a {margin: 0 10px 10px 10px;display: inline-block;}
+    .rights{float: left;width: 100%;text-align: center;padding-bottom: 20px;background-color: #2d2e21;}
+    .rights p{font-size: 15px;font-weight: 700;color: #fff;}
+}
+
+@media only screen and (max-width:480px) {
+	.gallery .show_menu {display: block;position: absolute;top: 22%;right: 2%;z-index: 99999;left: initial;}
+    .gallery .hide_menu {display: none;position: absolute;top: 22%;right: 2%;z-index: 99999;left: initial;}
 }
